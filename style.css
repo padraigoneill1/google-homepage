@@ -3,22 +3,80 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
+    }
+
+  body {
+    color: blue;
   }
-  
-  li {
-    float: right;
-  }
+
   
   li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: grey
   }
-  
+
+  li::before {
+    color: red; /* or whatever color you prefer */
+  }
+
+  #top-navbar li a {
+    float: right;
+    color: black
+    
+  }
+
+  #language-navbar li a {
+    display: block;
+    background-color:#f2f2f2;
+    text-align: left;
+    float: left;
+    padding: 14px 16px;
+  }
+
+  #language-navbar {
+    display: block;
+    background-color:#f2f2f2;
+    text-align: left;
+    border: 1px solid #e7e7e7;
+  }
+
+  #bottom-navbar  li a {
+    display: block;
+    background-color:#f2f2f2;
+    text-align: center;
+    float: left;
+  }
+
+  #bottom-navbar{
+    display: block;
+    background-color:#f2f2f2;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+  }
+
+  #googleform   {
+    position: relative;
+    text-align: center;
+  }
+
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    text-decoration: underline;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
