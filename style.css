@@ -1,82 +1,114 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-    }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
 
-  body {
-    color: blue;
-  }
+body {
+  color: blue;
+}
 
-  
-  li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: grey
-  }
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: grey;
+}
 
-  li::before {
-    color: red; /* or whatever color you prefer */
-  }
+li::before {
+  color: red; /* or whatever color you prefer */
+}
 
-  #top-navbar li a {
-    float: right;
-    color: black
-    
-  }
+#top-navbar li a {
+  float: right;
+  color: black;
+}
 
-  #language-navbar li a {
-    display: block;
-    background-color:#f2f2f2;
-    text-align: left;
-    float: left;
-    padding: 14px 16px;
-  }
+#googleform {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
 
-  #language-navbar {
-    display: block;
-    background-color:#f2f2f2;
-    text-align: left;
-    border: 1px solid #e7e7e7;
-  }
+#language-navbar li a {
+  display: block;
+  background-color: #f2f2f2;
+  text-align: left;
+  float: left;
+  padding: 14px 16px;
+}
 
-  #bottom-navbar  li a {
-    display: block;
-    background-color:#f2f2f2;
-    text-align: center;
-    float: left;
-  }
+#language-navbar {
+  display: block;
+  background-color: #f2f2f2;
+  text-align: left;
+  border: 1px solid #e7e7e7;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
 
-  #bottom-navbar{
-    display: block;
-    background-color:#f2f2f2;
-    text-align: center;
-    border: 1px solid #e7e7e7;
-  }
+#bottom-navbar li a {
+  display: block;
+  background-color: #f2f2f2;
+  text-align: center;
+  float: left;
+}
 
-  #googleform   {
-    position: relative;
-    text-align: center;
-  }
+#bottom-navbar li a {
+  display: block;
+  background-color: #f2f2f2;
+  text-align: center;
+  float: left;
+}
 
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    text-decoration: underline;
-  }
+#bottom-navbar {
+  display: block;
+  background-color: #f2f2f2;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
 
-  .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+#right {
+  float: right;
+}
+
+#googleform {
+  position: relative;
+  text-align: center;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #f2f2f2; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: arial, sans-serif;
+}
+
+input {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid rgb(196, 191, 191);
+    border-radius: 24px;
+    height: 45px;
+    margin: 0 auto;
+    width: 480px;
+}
